@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Count Down</h1>
+      <div class="dayorder">
+        <span>Day</span>
+        <span>Hour</span>
+        <span>Min</span>
+        <span>Sec</span>
+      </div>
+      <div class="counter">
+        <span id="day">0</span>
+        <span id="hour">0</span>
+        <span id="min">0</span>
+        <span id="sec">0</span>
+      </div>
+      <p>Enter the Date</p>
+      <div class="c">
+        <span><input type="number" name="date" id="i-days" /></span>
+        <span><input type="number" id="i-hours" /></span>
+        <span><input type="number" id="i-mins" /></span>
+        <span><input type="number" id="i-sec" /></span>
+      </div>
+      <div class="btn">
+        <a id="reset" href="#">Reset</a>
+
+        <a href="#" class="start" onclick="reset()">Start</a>
+      </div>
+    </div>
+  </body>
+</html>

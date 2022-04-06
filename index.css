@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/random-square-halftone-pattern_1409-1062.jpg?w=2000);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(110, 174, 226);
+    padding: 30px;
+    width: 450px;
+    height: 350px;
+    position: relative;
+}
+
+.container h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.counter {
+    position: absolute;
+    top: 147px;
+    right: 133px;
+}
+
+.btn {
+    position: absolute;
+    top: 294px;
+    right: 166px;
+}
+
+.counter>span,.c >span {
+    background-color: darkblue;
+    padding: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+.dayorder>span {
+    position: relative;
+    right: -86px;
+    top: 1px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* .start {
+    position: absolute;
+    top: 269px;
+    right: 193px;
+} */
+
+.start:hover {
+    box-shadow: rgb(35, 235, 85, 0.35) 0px 10px 15px;
+    background-color: rgb(35, 235, 85);
+}
+
+.fa {
+    cursor: pointer;
+}
+.counter >span:hover, .c span:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* transform: scale(2); */
+}
+.c {
+    position: absolute;
+    top: 226px;
+    right: 97px;
+}
+
+input[type="number"]{
+    width:30px ;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+}
+p{
+    position: absolute;
+    top: 167px;
+    padding:20px 0 20px 0;
+    right: 186px; 
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
